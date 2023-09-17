@@ -13,6 +13,6 @@ Each of the model that we have managed in the Jupyter Notebook has the following
 4. *Overall models comparison.*
 
 We report that in the Notebook we've performed EDA (i.e. *exploratory data analysis*), too.
-In general, refer to proceses detailed [model card](MODELCARD.md) to see any model step in deeper details.
+In general, refer to proceses detailed [model card here](MODELCARD.md) to see any model step in deeper details.
 
 Happy coding and learning to you all !
