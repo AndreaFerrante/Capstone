@@ -7,12 +7,12 @@ Referring to the master piece work about the topic, [Credit Risk Modelling by Da
 The challange is a *classification problem* since we will be determine if an **unknown client** will be dafaulting or not **given previous clients' defaults**.
 Each of the model that we have managed in the Jupyter Notebook has the following steps:
 
-1. Initial training and model fitting,
-2. Single model performance metrics,
-3. Hyperparameters tuning,
-4. Overall models comparison.
+1. *Initial training and model fitting,*
+2. *Single model performance metrics,*
+3. *Hyperparameters tuning,*
+4. *Overall models comparison.*
 
 We report that in the Notebook we've performed EDA (i.e. *exploratory data analysis*), too.
-In general, tha final model card is presented [here](MODELCARD.md).
+In general, refer to proceses detailed [model card](MODELCARD.md) to see any model step in deeper details.
 
 Happy coding and learning to you all !
