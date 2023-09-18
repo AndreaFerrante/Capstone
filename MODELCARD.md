@@ -16,7 +16,7 @@ In our case, since we are modelling a **binary classification problem**, we have
 
 **Model Architecture:** 
   1. **Algorithm**: Random Forest Classifier <br>
-  2. **Hyperparameters**: the model's hyperparameters such as `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf` are optimized using Bayesian optimization with the hyperopt library. <br>
+  2. **Hyperparameters**: the model's hyperparameters such as `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf` are optimized using Bayesian optimization with the [hyperopt](https://hyperopt.github.io/hyperopt/#hyperopt-distributed-asynchronous-hyper-parameter-optimization) library. <br>
   3. **Library**: scikit-learn Python package (widely used). <br>
 
 ## Performance
