@@ -1,6 +1,6 @@
 # Credit Card Clients Default Modelling
 
-This repo contains one *full Machine Learning journey for any financial analyst* that will be dealing with *credit risk assessments* in his/her career.
+This repo contains one *full Machine Learning journey for any financial analyst* that will be dealing with *credit risk assessments* in his/her career 🚀
 
 Referring to the master piece work about the topic, [Credit Risk Modelling by David Jamieson Bolder](https://link.springer.com/book/10.1007/978-3-319-94688-7?source=shoppingads&locale=en-it), we present different Machine Learning models to determine [on the Taiwan Credit Default dataset](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) (please, refer to this detailed [data sheet here](DATASHEET.md) and to the data folder where the data is actually in) if a client **will be defaulting or not**.
 
