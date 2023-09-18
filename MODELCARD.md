@@ -29,14 +29,11 @@ In our case, since we are modelling here a **binary classification problem**, we
 **Summary**
 
   1. **Graph**: a [ROC curve](https://it.wikipedia.org/wiki/Receiver_operating_characteristic) is plotted to visualize the true positive rate against the false positive rate like follows
-
-  ![Uploading Screenshot 2023-09-18 alle 20.05.41.png…]()
-     
   2. **Data**: the model is evaluated on a test set which is a portion of the total dataset, and *the performance metrics are calculated based on this test set.*
 
 ## Limitations
 
-  1. **Imbalanced Data**: the dataset is imbalanced with a higher number of non-default cases, which might lead to a model biased towards predicting the majority class.
+  1. **Imbalanced Data**: the dataset is imbalanced with a higher number of non-default cases, which might lead to a model biased towards predicting the majority class. We have been performed balancing tecniques and, as a future development, *it would be ideal to test balancing tecniques furthermore.*
   2. **Feature Engineering**: the model might benefit from more sophisticated feature engineering to potentially uncover more complex patterns in the data.
   3. **Hyperparameter Tuning**: the Bayesian optimization was performed with a limited number of evaluations, *which might not be sufficient to find the optimal set of hyperparameters.*
 
