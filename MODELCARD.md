@@ -1,7 +1,7 @@
 # Model Card
 
-We have been pointing to the following model cards examples: [examples from Google](https://modelcards.withgoogle.com/model-reports).
-In our case, since we are modelling here a **binary classification problem**, we have compared different algorithms *(SVM, GBM, Logistic Regression, Naive Bayes, Random Forest, kNN)* to find out that Random Forest is the one that performs best. In order to have a correct dataset, we have balanced the data used using [undersampling methodology](https://machinelearningmastery.com/undersampling-algorithms-for-imbalanced-classification/).
+For this model card, we focused to these examples: [examples from Google](https://modelcards.withgoogle.com/model-reports).
+In our case, since we are modelling a **binary classification problem**, we have compared different algorithms *(SVM, GBM, Logistic Regression, Naive Bayes, Random Forest, kNN)* to find out that Random Forest is the one that performs best. In order to have a not imbalanced dataset, we have balanced the data used using [undersampling methodology](https://machinelearningmastery.com/undersampling-algorithms-for-imbalanced-classification/). We have not been doing feature engineering.
 
 ## Model Description
 
@@ -11,19 +11,19 @@ In our case, since we are modelling here a **binary classification problem**, we
   3. **Preprocessing**: the data is standardized using `StandardScaler` from scikit-learn to have a mean of 0 and a standard deviation of 1. <br>
   
 **Output:** 
-  1. **Classification**: The output is a binary classification indicating whether a client will default on their credit card payment the next month (1 for default, 0 for not default). <br>
-  2. **Probabilities**: The model can also output the probabilities of belonging to each class. <br>
+  1. **Classification**: the output is a binary classification indicating whether a client will default on their credit card payment the next month (1 for default, 0 for not default). <br>
+  2. **Probabilities**: the model can also output the probabilities of belonging to each class. <br>
 
 **Model Architecture:** 
   1. **Algorithm**: Random Forest Classifier <br>
-  2. **Hyperparameters**: The model's hyperparameters such as `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf` are optimized using Bayesian optimization with the hyperopt library. <br>
-  3. **Library**: scikit-learn Python package widely used. <br>
+  2. **Hyperparameters**: the model's hyperparameters such as `n_estimators`, `max_depth`, `min_samples_split`, and `min_samples_leaf` are optimized using Bayesian optimization with the hyperopt library. <br>
+  3. **Library**: scikit-learn Python package (widely used). <br>
 
 ## Performance
 
 **Metrics**
-  1. **Accuracy**: The primary metric used for evaluating the model is accuracy, which is the ratio of correctly predicted observation to the total observations. <br>
-  2. **ROC-AUC**: The ROC-AUC score is also calculated to evaluate the model's ability to distinguish between the two classes. <br>
+  1. **Accuracy**: the primary metric used for evaluating the model is accuracy, which is the ratio of correctly predicted observation to the total observations. <br>
+  2. **ROC-AUC**: the ROC-AUC score is also calculated to evaluate the model's ability to distinguish between the two classes. <br>
   3. **Confusion Matrix and Classification Report**: these provide a detailed breakdown of the model performance, including *precision, recall, and F1-score.* <br>
 
 **Summary**
