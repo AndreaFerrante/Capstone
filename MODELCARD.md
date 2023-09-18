@@ -28,7 +28,10 @@ In our case, since we are modelling here a **binary classification problem**, we
 
 **Summary**
 
-  1. **Graph**: a [ROC curve](https://it.wikipedia.org/wiki/Receiver_operating_characteristic) is plotted to visualize the true positive rate against the false positive rate like follows
+  1. **Graph**: a [ROC curve](https://it.wikipedia.org/wiki/Receiver_operating_characteristic) is plotted to visualize the true positive rate against the false positive rate like follows:
+
+![alt text](https://github.com/AndreaFerrante/Capstone/blob/main/images/roc_rf.png)
+     
   2. **Data**: the model is evaluated on a test set which is a portion of the total dataset, and *the performance metrics are calculated based on this test set.*
 
 ## Limitations
@@ -39,7 +42,7 @@ In our case, since we are modelling here a **binary classification problem**, we
 
 ## Trade-offs
 
-Every model has its own 
+Every model has its own peculiarities but the all share the same point of attention: *interpretability*.
 
   1. **Complexity vs. Interpretability**: ***Random Forest is a complex model with many trees***, making it *less interpretable compared to simpler models like logistic regression.*
   2. **Training Time**: Random Forest models generally take a longer time to train compared to simpler models, especially with a large number of trees.
