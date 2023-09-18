@@ -39,7 +39,7 @@
    - **Impact on Future Uses**: The dataset contains sensitive financial data, and while it is anonymized, it should be used responsibly to avoid potential risks such as unfair stereotyping or discrimination. Users should be cautious about how the results derived from this dataset are applied, especially in real-world applications that could affect individuals' financial standings.
    - **Tasks for Which the Dataset Should Not Be Used**: The dataset should not be used for any task that could potentially lead to the identification of individuals or for tasks that could facilitate discriminatory practices.
 
-## Detailed Data Dicitonary
+## Detailed Data Dictionary
 
 - **Instances**: 30,000
 - **Attributes**: 24
