@@ -1,0 +1,6 @@
+The Jupyter Notebook in this folder has internal pointers to sections starting from the overall description.
+
+Please, download it locally on your machine for better usage to point to explenation sections directly...this is 
+not possible if the notebook is open in GitHub.
+
+Andrea F.
