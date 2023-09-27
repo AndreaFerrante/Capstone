@@ -1,7 +1,7 @@
 # Credit Card Clients Default Modelling
 
 
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
+## Non-technical explanation of this GitHub repository
 This repo contains a *full Machine Learning journey for any financial analyst*, like me, that will be dealing with *credit risk assessments* in his/her career 🚀
 
 Referring to the master piece work about the topic, [Credit Risk Modelling by David Jamieson Bolder](https://link.springer.com/book/10.1007/978-3-319-94688-7?source=shoppingads&locale=en-it), we present different Machine Learning models to determine on the [Taiwan Credit Default dataset](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) (please, refer to its detailed [data sheet here](DATASHEET.md) and to the data folder where the data is actually in) if a client **will be defaulting or not** during the next month.
@@ -21,18 +21,18 @@ Please, refer to the model card [here](MODELCARD.md) to gain the model and its p
 Happy coding and learning to you all !
 
 
-## DATA
+## Data
 In order to make this GitHub project as portable as possible but still effective, I have been using the [Default Credit Card Clients](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients) dataset which contains 30.000 obeservations with no missing data and it has a weight of few megabytes ! 
 Please, refer to the detailed **data sheet** (it can be found [here](DATASHEET.md)) contained in this GitHub repo for all the possible details about it.
 
-## MODEL 
+## Models 
 As said in the short *non technical* descrition above, we used more than one single model to be compared against each other. These models *are parametric, non parametric and tree based* to better compare all possible aspects.
 
-## HYPERPARAMETER OPTIMISATION
+## Hyperparameter optimisation
 In order to perfrom *paramter optimisation* I have been using [Bayes Optimisation](https://en.wikipedia.org/wiki/Bayesian_optimization) on each single model: this is usefule for *better understanding each single model peculiar paramters !* 
 
-## RESULTS
+## Results
 Out of all the models, *ensemble Random Forest Classificator* performs better given the (ROC AUC)[https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=en] classifier which is very frequently used for *binary classification problems* like this one. To have a closer look to the **ROC**, please refer to image loaded into the  the below image.
 
-## (OPTIONAL: CONTACT DETAILS)
+## Contact details
 Please, let's connect if possible to exchange ideas and points of view ! Here you have my (LinkedIn Profile)[https://www.linkedin.com/in/andrea-ferrante-72b8b343/].
