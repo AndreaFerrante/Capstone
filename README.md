@@ -32,7 +32,7 @@ As said in the short *non technical* descrition above, we used more than one sin
 In order to perfrom *paramter optimisation* I have been using [Bayes Optimisation](https://en.wikipedia.org/wiki/Bayesian_optimization) on each single model: this is usefule for *better understanding each single model peculiar paramters !* 
 
 ## Results
-Out of all the models, *ensemble Random Forest Classificator* performs better given the (ROC AUC)[https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=en] classifier which is very frequently used for *binary classification problems* like this one. To have a closer look to the **ROC**, please refer to image loaded into the  the below image.
+Out of all the models, *ensemble Random Forest Classificator* performs better given the [ROC AUC](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc?hl=en) classifier which is very frequently used for *binary classification problems* like this one. To have a closer look to the **ROC**, please refer to image loaded into the  the below image.
 
 ## Contact details
-Please, let's connect if possible to exchange ideas and points of view ! Here you have my (LinkedIn Profile)[https://www.linkedin.com/in/andrea-ferrante-72b8b343/].
+Please, let's connect if possible to exchange ideas and points of view ! Here you have my [LinkedIn Profile](https://www.linkedin.com/in/andrea-ferrante-72b8b343/].)
