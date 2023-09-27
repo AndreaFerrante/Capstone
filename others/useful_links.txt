@@ -1,0 +1,7 @@
+The following links are general good readings and they are the foundation of the Notebook in this repo !
+
+1. Link to the dataset on Kaggle:                 https://www.kaggle.com/datasets/szrlee/stock-time-series-20050101-to-20171231?resource=download
+2. Link to Credit Scoring and Response Modelling: https://link.springer.com/book/10.1057/9781137031693
+3. Random forest (simple overview):               https://www.youtube.com/watch?v=v6VJ2RO66Ag
+4. Official paper about Credit Scoring:           https://utstat.toronto.edu/~ali/papers/creditworthinessProject.pdf
+5. Credit Scoring using Bayes Optimisation:       https://journalofbigdata.springeropen.com/articles/10.1186/s40537-022-00665-5
